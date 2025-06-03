@@ -28,7 +28,7 @@ const EventList = () => {
 
     return(
         <>
-
+    {/* <Navbar/> */}
             <div className="border p-5">
                 <div className="border p-5">
                     {eventList.length>0 ? (renderEventCard()

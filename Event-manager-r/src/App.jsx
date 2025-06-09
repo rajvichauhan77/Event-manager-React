@@ -2,7 +2,7 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 // import { routes } from './routes/Routes'
-import { routes } from './routes/Routes'
+import { routes } from './routes/routes.js'
 
 import './App.css'
 

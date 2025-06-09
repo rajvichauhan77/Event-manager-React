@@ -6,7 +6,7 @@ import About from '../pages/About'
 import Contact from '../pages/Contact'
 import Register from '../pages/Register'
 
-  export const routes =([
+  export const routes = ([
     {path: '/', element: (<><Navbar /> <EventList/></>)  },
     {path: '/find-events', element:(<><Navbar /> <FilterEvent/></>)  },
     {path: '/events/:id', element: (<><Navbar /> <EventDetails/></>)  },{path: 'about-us', element: (<><Navbar /> <About/></>)},
